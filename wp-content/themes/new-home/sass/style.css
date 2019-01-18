@@ -93,7 +93,6 @@
     font-family: "Raleway";
     color: white;
     text-align: center; }
-
 .page-template-default .agency {
   display: flex;
   width: 100%;
@@ -168,10 +167,9 @@
           color: black;
           transition: color 0.1s ease-in-out; }
   .footer .title {
-    font-family: "Raleway" !important;
+    font-family: "Raleway";
     color: white; }
-  .footer .contact *,
-  .footer .menus * {
+  .footer .contact a + p, .footer .menus a + p {
     color: white;
     font-family: "Playfair"; }
   .footer .menus {
@@ -180,3 +178,5 @@
     align-items: flex-start; }
     .footer .contact .email {
       color: #ed3131; }
+
+/*# sourceMappingURL=style.css.map */

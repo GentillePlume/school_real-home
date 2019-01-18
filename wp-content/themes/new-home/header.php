@@ -10,6 +10,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 <nav class="navbar--main">
     <img src="<?php bloginfo('template_url'); ?>/images/home/logo-1.png"/>
 

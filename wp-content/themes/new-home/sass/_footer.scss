@@ -1,0 +1,83 @@
+.footer {
+  background-color: #303030 !important;
+
+  & .column {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  & .logo {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .menu-reseaux-sociaux-container {
+    width: 200px;
+
+    & .menu {
+      display: flex;
+      width: auto;
+      height: auto;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+
+      & .menu-item {
+        display: flex;
+        position: relative;
+        width: 35px;
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        border: 1px solid rgba(255,255,255,.25);
+        // margin-right: 5px;
+        transition: background-color 0.1s ease-in-out;
+        background-color: white;
+
+        &:hover {
+          background-color: black;
+
+          & a {
+            color: white;
+          }
+        }
+
+        & a {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          color: black;
+          transition: color 0.1s ease-in-out;
+        }
+      }
+    }
+  }
+
+  & .title {
+    font-family: "Raleway" !important;
+    color: white;
+  }
+
+  & .contact *,
+  & .menus * {
+    color: white;
+    font-family: "Playfair";
+  }
+
+  & .menus {
+    align-items: flex-start;
+  }
+
+  & .contact {
+    align-items: flex-start;
+
+    & .email {
+      color: rgb(237, 49, 49);
+    }
+  }
+}
