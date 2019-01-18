@@ -8,7 +8,7 @@ function insert_css()
     wp_register_script('jquery2', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js');
     wp_enqueue_script('jquery2');
 
-    wp_register_style('fonts', 'https://fonts.googleapis.com/css?family=Raleway');
+    wp_register_style('fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
     wp_enqueue_style('fonts');
 
     wp_register_style('fontawesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -19,7 +19,8 @@ function insert_css()
 add_theme_support('menus');
 register_nav_menus([
     'menu-principal' => 'Navigation principale',
-    'menu-footer' => 'Navigation footer'
+    'menu-footer' => 'Navigation footer',
+    'menu-social' => 'réseaux sociaux'
 ]);
 
 /********************************************

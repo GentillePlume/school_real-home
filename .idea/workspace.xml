@@ -2,64 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="687ef4f0-dac2-429c-ad0f-d04eb1fc3e2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/new-home/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyseventeen-fr_FR.mo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyseventeen-fr_FR.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/archive.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/colors-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/editor-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/css/ie9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/coffee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/espresso.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/sandwich.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/images/svg-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-controls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/customize-preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/html5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/jquery.scrollTo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/navigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/comments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/front-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/back-compat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/color-patterns.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/custom-header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/customizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/icon-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/inc/template-tags.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/searchform.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/sidebar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/single.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/header-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/navigation/navigation-top.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page-panels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-front-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/page/content-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-audio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-excerpt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-gallery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-none.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content-video.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentyseventeen/template-parts/post/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -82,16 +31,25 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/header.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -113,10 +71,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/new-home/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/new-home/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/new-home/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/fron-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/new-home/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/new-home/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/new-home/functions.php" />
       </list>
     </option>
   </component>
@@ -128,6 +87,9 @@
     <option name="y" value="-9" />
     <option name="width" value="1875" />
     <option name="height" value="1098" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,6 +133,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\school_real-home\wp-content\themes\new-home" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -193,12 +160,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547813077992</updated>
-      <workItem from="1547813079332" duration="1293000" />
+      <workItem from="1547813079332" duration="4584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1293000" />
+    <option name="totallyTimeSpent" value="4584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-8" width="1865" height="1096" extended-state="6" />
@@ -229,20 +196,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -250,10 +203,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>

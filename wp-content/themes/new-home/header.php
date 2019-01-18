@@ -10,5 +10,10 @@
 </head>
 
 <body <?php body_class(); ?>>
+<nav class="navbar--main">
+    <img src="<?php bloginfo('template_url'); ?>/images/home/logo-1.png"/>
 
-<?php wp_nav_menu(array('theme_location' => 'menu-principal', 'container' => 'nav')); ?>
+    <?php wp_nav_menu(array('theme_location' => 'menu-principal', 'container' => 'ul')); ?>
+
+    <?php wp_nav_menu(array('theme_location' => 'menu-social', 'container' => 'ul')); ?>
+</nav>
