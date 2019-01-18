@@ -16,4 +16,30 @@
 
     </section>
 
+    <section class="partners">
+
+        <h2 class="partners__title">Our <span>Partners</span></h2>
+        <?php
+        $args = array(
+            'post_type' => 'partners',
+            'posts_per_page' => -1,
+            'orderby' => 'menu_order',
+            'order' => 'ASC',
+        );
+        ?>
+
+        <?php $the_query = new WP_Query($args); ?>
+
+        <?php if ($the_query->have_posts()) : ?>
+            <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+
+                <div class="partners__partner">
+                    <img class="partners_partner_img" src="<?php the_post_thumbnail_url(); ?>" />
+                </div>
+
+            <?php endwhile; ?>
+        <?php endif; ?>
+
+    </section>
+
 <?php get_footer(); ?>

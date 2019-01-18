@@ -124,6 +124,27 @@
     font-size: 20px;
     color: grey; }
 
+.partners {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-flow: row;
+  padding: 50px 100px;
+  justify-content: space-around; }
+  .partners__title {
+    font-family: "Raleway";
+    font-weight: lighter;
+    font-size: 25px; }
+    .partners__title span {
+      font-family: "Raleway";
+      font-weight: bold; }
+  .partners__partner {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .partners__partner_img {
+      height: 50px; }
+
 .footer {
   background-color: #303030 !important; }
   .footer .column {
@@ -167,9 +188,9 @@
           color: black;
           transition: color 0.1s ease-in-out; }
   .footer .title {
-    font-family: "Raleway";
+    font-family: "Raleway" !important;
     color: white; }
-  .footer .contact a + p, .footer .menus a + p {
+  .footer .contact *, .footer .menus * {
     color: white;
     font-family: "Playfair"; }
   .footer .menus {

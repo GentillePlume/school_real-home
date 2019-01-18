@@ -1,0 +1,29 @@
+.partners {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-flow: row;
+  padding: 50px 100px;
+  justify-content: space-around;
+
+  &__title {
+    font-family: "Raleway";
+    font-weight: lighter;
+    font-size: 35px;
+
+    & span {
+      font-family: "Raleway";
+      font-weight: 500;
+    }
+  }
+
+  &__partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_img {
+      height: 50px;
+    }
+  }
+}

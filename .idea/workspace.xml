@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="687ef4f0-dac2-429c-ad0f-d04eb1fc3e2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/_general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/.sass-cache/5f4e358881ddea47efee115edc4f556df1b8c319/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/.sass-cache/5f4e358881ddea47efee115edc4f556df1b8c319/_footer.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/.sass-cache/5f4e358881ddea47efee115edc4f556df1b8c319/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/.sass-cache/5f4e358881ddea47efee115edc4f556df1b8c319/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/sass/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/new-home/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/new-home/style.css" afterDir="false" />
     </list>
@@ -20,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
+            <state relative-caret-position="340">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="e#47#135#0#HTML" expanded="true" />
               </folding>
@@ -32,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="116" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
             </state>
           </provider>
         </entry>
@@ -51,11 +59,11 @@
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/new-home/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/fron-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/new-home/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/new-home/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/new-home/sass/_front-page.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/new-home/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/new-home/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/new-home/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/new-home/front-page.php" />
       </list>
     </option>
   </component>
@@ -148,12 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547813077992</updated>
-      <workItem from="1547813079332" duration="7331000" />
+      <workItem from="1547813079332" duration="8342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7331000" />
+    <option name="totallyTimeSpent" value="8342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-8" width="1865" height="1096" extended-state="6" />
@@ -201,33 +209,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/sass/_navbar.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/sass/_front-page.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
-          <folding>
-            <element signature="e#47#135#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="116" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/new-home/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#47#135#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
