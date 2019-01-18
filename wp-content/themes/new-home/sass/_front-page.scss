@@ -31,7 +31,7 @@
       width: 30%;
       height: auto;
       font-family: "Raleway";
-      font-weight: bold;
+      font-weight: 500;
       font-size: 35px;
       text-align: right;
       margin-right: 25px;
@@ -53,6 +53,172 @@
       font-family: "Playfair";
       font-size: 20px;
       color: grey;
+    }
+  }
+
+  & .points {
+    display: flex;
+    width: 100%;
+    padding: 100px 50px;
+    background-color: #fbfbfb;
+
+    &__point {
+      display: flex;
+      width: 25%;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: center;
+
+      &_img {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+        & i {
+          font-size: 30px;
+        }
+      }
+
+      &_title {
+        font-family: "Raleway";
+        font-weight: 500;
+        margin: 1.5rem 0;
+      }
+
+      &_desc {
+        text-align: center;
+        font-family: "Playfair";
+        color: grey;
+      }
+    }
+  }
+
+  & .partners {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-flow: row;
+    padding: 50px 100px;
+    justify-content: space-around;
+
+    &__title {
+      font-family: "Raleway";
+      font-weight: lighter;
+      font-size: 35px;
+
+      & span {
+        font-weight: 500;
+      }
+    }
+
+    &__partner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &_img {
+        height: 50px;
+      }
+    }
+  }
+
+  & .biens {
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F3F3F3;
+
+    &__title {
+      font-family: "Raleway";
+      font-weight: lighter;
+      font-size: 50px;
+
+      & span {
+        font-weight: bold;
+      }
+    }
+
+    &__separator {
+      width: 100px;
+      height: 3px;
+      border-radius: 50px;
+      margin: 25px 0;
+      background-color: rgb(213, 100, 100);
+    }
+
+    &__desc {
+      width: 33%;
+      text-align: center;
+      font-family: "Playfair";
+      font-size: 18px;
+      color: grey;
+    }
+
+    &__container {
+      display: flex;
+      width: 100%;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0 25px;
+      margin-top: 50px;
+    }
+
+    &__bien {
+      display: flex;
+      width: 400px;
+      height: auto;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: white;
+
+      &_img {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+      }
+
+      &_title {
+        font-family: "Raleway";
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 2.5px;
+        font-size: 25px;
+      }
+
+      &_city {
+        font-family: "Playfair";
+        font-size: 18px;
+        color: grey;
+      }
+
+      &_price {
+        font-family: "Arial";
+        font-size: 20px;
+        margin: 20px 0;
+        color: red;
+      }
+
+      &_infos {
+        display: flex;
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-top: 1px solid rgba(0,0,0,.25);
+        padding: 10px 25px;
+
+        &_info {
+          font-family: "Arial";
+          color: grey;
+        }
+      }
     }
   }
 }

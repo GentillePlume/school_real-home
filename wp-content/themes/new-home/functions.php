@@ -8,7 +8,7 @@ function insert_css()
     wp_register_script('jquery2', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js');
     wp_enqueue_script('jquery2');
 
-    wp_register_style('fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400,700');
+    wp_register_style('fonts', 'https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:300,400,500,700');
     wp_enqueue_style('fonts');
 
     wp_register_style('fontawesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -92,6 +92,28 @@ function create_post_type()
             'taxonomies' => array('types'),
             'supports' => array('title', 'editor', 'thumbnail'),
             'rewrite' => array('slug' => 'partenaires', 'with_front' => true)
+        )
+    );
+    register_post_type('points',
+        array(
+            'label' => __('Points'),
+            'singular_label' => __('Point'),
+            'add_new_item' => __('Ajouter un point'),
+            'edit_item' => __('Modifier un point'),
+            'new_item' => __('Nouveau point'),
+            'view_item' => __('Voir le point'),
+            'search_items' => __('Rechercher un point'),
+            'not_found' => __('Aucun point trouvé'),
+            'not_found_in_trash' => __('Aucun point trouvé'),
+            'public' => true,
+            'show_ui' => true,
+            'capability_type' => 'post',
+            'has_archive' => true,
+            'hierarchical' => true,
+            'menu_icon' => 'dashicons-marker',
+            'taxonomies' => array('types'),
+            'supports' => array('title', 'editor', 'thumbnail'),
+            'rewrite' => array('slug' => 'points', 'with_front' => true)
         )
     );
 }
